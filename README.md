@@ -10,6 +10,10 @@ Release notes
 * Tecnologies used: Java 7, JavaFX2 for UI, H2 embedded for database
 * Requirement : NetBeans 8.0 , H2 database jar file h2-1.4.179.jar
 
+h2 Database 
+============
+* CREATE TABLE customertable(name varchar2(100),email varchar2(100),phone varchar2(15),address varchar2(255),city varchar2(50),state varchar2(50),pincode int(20),country varchar2(50));
+
 How to Execute
 ==============
 * Open NetBeans
