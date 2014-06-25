@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2014, 12:13:01 PM
+    Author     : SWAPNIL LAHIRE
+*/
+.root {
+-fx-background-image: url("background.jpg");
+}
+
+.label {
+-fx-font-size: 12px;
+
+-fx-text-fill: #333333;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#cust-record {
+-fx-font-size: 28px;
+-fx-font-family: "Arial Black";
+-fx-fill: #818181;
+-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#actiontarget {
+-fx-fill: FIREBRICK;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
